@@ -1,5 +1,5 @@
 <script>
-import { mock } from '../mocked-data.js'
+import  mock  from '../mocked-data.js'
 
 export default {
     data(){
@@ -10,9 +10,9 @@ export default {
     methods : {
         showData (){
             this.mockedData = mock.map( i=> ({
-            http_code : i.http_code,
-            tag : i["tag "],
-            message : i["message "],
+            http_code: i.http_code,
+            tag: i["tag"],
+            message: i["message"],
            }))
            return this.mockedData;
         },
@@ -60,7 +60,7 @@ export default {
     justify-items: center;
     width: 100%;
     height: 10em;
-    margin-right: 10em ;
+    margin-right: 10em;
 }
 
 tr:nth-child(even){

@@ -1,14 +1,13 @@
 <script setup>
-import HelloWorld from './components/ListExcuse.vue'
+import { RouterLink, RouterView } from 'vue-router'
+
 </script>
 
 <template>
- 
-
   <main>
     <div>
-    <HelloWorld/>
-  </div>
+      <RouterView />
+    </div>
   </main>
 </template>
 
